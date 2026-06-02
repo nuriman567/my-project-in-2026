@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KopiTulen</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+        <nav>
+          <a href="index.html"><h1>KopiTulen</h1></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="review.html">REVIEW</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()" ></i>
+		</nav>
+<div class="text-box">
+  <h1>The best of KopiTulen</h1>
+  <P>You can get different type coffee and also food.if you want it,please press the button menu to look the menu.</P>
+  <a href="" class="hero-btn">see the menu</a>
+</div>		
+	</section>
+<!--------Javascript for Toggle Menu------->
+<script>
+
+     var navlinks = document.getElementById("navlinks");
+	function showMenu(){
+		navlinks.style.right = "0";
+	}
+	function hideMenu(){
+		navlinks.style.right = "-200px";
+	}
+    
+
+
+
+
+
+
+</script>
+
+
+	<!--- Call to Action-->
+
+	<section class="cta">
+		<h1>Ready to experience the best coffee in town?</h1>
+         <a href="" class="hero-btn">Visit Us Today</a>
+    </section>
+
+	<!---footer---->
+
+	<section class="footer">
+		<h1>Kopi Tulen</h1>
+		<p>&copy; 2023 Kopi Tulen. All rights reserved.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+	</section>
+
+	
+	<script src="script.js"></script>
+</body>
+</html>
