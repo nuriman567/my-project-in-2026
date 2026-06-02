@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+	<header class="header">
+		<a href="#" class="logo"><span>Nurul Iman</span></a>
+	    
+		<ul class="nav-links">
+			<li>
+				<a href="#about">About</a>
+			</li>
+
+			<li>
+				<a href="#experience">Experience</a>
+			</li>
+
+			<li>
+				<a href="#projects">Projects</a>
+			</li>
+
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+
+		<i class="fa-solid fa-bars" id="menu-icon"></i>
+
+		<button class="visit-btn">Visit Github</button>
+	
+	</header>
+
+
+    <section id="about" class="about">
+		<div class="about-container">
+			<img src="contoh girl.png" alt="">
+
+			<div class="info-box">
+
+				<div class="text">
+					<h3>Hi, I'm</h3>
+					<h1>Nurul Iman</h1>
+					<span>Software Engineer</span>
+				</div>
+
+				<div class="btn-group">
+					<div class="btn">download Cv</div>
+					<div class="btn">Contact</div>
+				</div>
+
+				<div class="socials">
+					<i class="fa-brands fa-github"></i>
+					<i class="fa-brands fa-linkedin"></i>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section id="experience" class="experience">
+
+		<h2 class="section-title">Experience</h2>
+
+		<div class="experience-info">
+		  <div class="grid">
+			<div class="grid-card">
+                <i class="fa-solid fa-code"></i>
+				<span>Software Engineer</span>
+				<h3> 1.5 years</h3>
+				<p>I created my first website and i created how is the function this website to use for a bussines.</p>
+			</div>
+			<div class="grid-card">
+                 <i class="fa-solid fa-file-code"></i>
+				<span>Grapic Design</span>
+				<h3> 1.5 years</h3>
+				<p>I have experience in creating visual designs for various digital platforms.</p>
+			</div>
+			<div class="grid-card">
+                <i class="fa-solid fa-laptop"></i>
+				<span>System design</span>
+				<h3> 1.5 years</h3>
+				<p>I have experience in designing and implementing scalable system architectures.</p>
+			</div>
+			<div class="grid-card">
+                <i class="fa-solid fa-list"></i>
+				<span>Content manager</span>
+				<h3> 1.5 years</h3>
+				<p>I have experience in managing and creating content for various digital platforms.</p>
+			</div>
+		  </div>
+		  <img src="contoh girl.png" alt="">
+		</div>
+	</section>
+
+	<section id="projects" class="project">
+       
+		<h2 class="section title">Recent Projects</h2>
+
+
+		<div class="project-card">
+			<img src="gm1.png" alt="">
+			<h3>Project x</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+			<div class="btn-group">
+				<div class="btn">Live Demo</div>
+				<div class="btn">Github Repo</div>
+			</div>
+		</div>
+
+		<div class="project-card">
+			<img src="gm2.png" alt="">
+			<h3>Project y</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+		    <div class="btn-group">
+				<div class="btn">Live Demo</div>
+				<div class="btn">Github Repo</div>
+			</div>
+		</div>
+		
+	
+	</section>	
+
+    <section class="contact" id="contact">
+		<div class="input-box">
+
+		 <h2 class="section-title">contact me</h2>
+
+		 <form id="contactForm" class="contact-form" action="#" method="post">
+<div class="input">
+				<input id="contactEmail" name="email" type="email" inputmode="email" placeholder="example@gmail.com" required pattern="^[^\s@]+@gmail\.com$" title="Please enter a valid Gmail address ending with @gmail.com">
+				<i class="fa-solid fa-envelope"></i>
+			 </div>
+
+			 <button class="btn" id="submitBtn" type="submit">Submit</button>
+		</form>
+
+		 <footer>
+			<ul>
+				<li>
+					<a href="#about">About</a>
+				</li>
+
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+
+				<p class="copyright">Copyright 2024. All rights reserved.</p>
+
+			</ul>
+		</footer>
+		 <div id="contactError" class="contact-error" aria-live="polite"></div>
+		</div>
+	</section>
+
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
+
